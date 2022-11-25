@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #e3f0ff;
+}
+.page-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1190px;
+    height: 100vh;
+   
+}
+/* navbar */
+    .navbar form .start{
+        background-color: #2d2c62;
+        color: white;
+        margin-left: .2rem;
+    }
+    .navbar form .log{
+        font-size: 1.5rem;
+        color: #6a6691;
+    }
+
+.navbar .navbar-brand{
+    color: #2d2c62;
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+.page-container .navbar{
+    height: 8rem;
+    padding: 1.5rem;
+}
+.collapse ul{
+    display: flex;
+    margin-left: 35rem;
+}
+.collapse ul li{
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #8e95b6;
+
+}
+/* end navbar */
+/* content */
+.page-container .content{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 3rem;
+    height: 90vh;
+    padding-top: 10rem;
+    
+    
+}
+.page-container .content .left h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: #2d2c62;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+}
+.page-container .content .left p{
+    color: #6a6691;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.page-container .content .left h1 span{
+    color: #fa676d;
+}
+.page-container .content .left .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.page-container .content .left .icons .text{
+    width: 60%;
+    height: 4rem;
+    padding: .5rem;
+    
+}
+.page-container .content .left .icons .butn{
+    width: 40%;
+    height: 4rem;
+    padding: .5rem;
+    background-color: #5654b3;
+}
+
+
+.page-container .content .right img{
+    width: 75rem;
+    margin-right: -5rem;
+}
+/* end content */
+
+/* footer */
+footer{
+display: flex;
+justify-content: space-around;
+height: 4rem;
+
+margin-top: -10rem;
+width: 20%;
+margin-bottom: auto;
+margin-right: auto;
+font-size: 2.5rem;
+}
